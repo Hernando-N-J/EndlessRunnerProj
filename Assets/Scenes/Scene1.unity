@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 120050898}
   - component: {fileID: 120050897}
   - component: {fileID: 120050896}
+  - component: {fileID: 120050901}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -238,6 +239,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &120050901
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120050895}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 88
+  m_CollisionDetection: 0
 --- !u!1 &159526596
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 124.99858}
-  m_SizeDelta: {x: 0, y: -250.00284}
+  m_AnchoredPosition: {x: 0, y: 324.6}
+  m_SizeDelta: {x: 0, y: -649.17584}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194215905
 MonoBehaviour:
@@ -567,7 +584,7 @@ GameObject:
   - component: {fileID: 1003835751}
   - component: {fileID: 1003835750}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Texter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +655,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 59.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -833,10 +850,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -896,7 +913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 814728e84a99f98479d8962ea8a5a39c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texter: {fileID: 0}
+  texter: {fileID: 1003835750}
   timesDead: 0
 --- !u!1 &1843354942
 GameObject:

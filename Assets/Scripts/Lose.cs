@@ -8,10 +8,12 @@ public class Lose : MonoBehaviour
     private void Awake()
     {
         Trap.OnTrap += TrapOnOnTrap;
+        texter.text = $"Player died {timesDead} times";
     }
 
     private void TrapOnOnTrap(TrapType traptype)
     {
+        timesDead++;
         texter.text = $"Player died {timesDead} times";
     }
 }
