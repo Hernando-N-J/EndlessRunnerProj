@@ -22,6 +22,14 @@ public class Pool : MonoBehaviour
             .ToArray();
         var randActive = Random.Range(0, actived.Length);
         return actived[randActive];
+    }
+    
+    public Transform GetRandomSafe()
+    {
+        var actived = instanced.Where(t => !t.gameObject.activeSelf)
+            .ToArray();
+        var randActive = Random.Range(0, actived.Length);
+        return actived[randActive];
 
     }
 }

@@ -2,18 +2,17 @@
 
 public class Lose : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI texter;
-    public int timesDead = 0;
+    public GameObject loseScreen;
+    public Generator generator;
 
     private void Awake()
     {
         Trap.OnTrap += TrapOnOnTrap;
-        texter.text = $"Player died {timesDead} times";
     }
 
     private void TrapOnOnTrap(TrapType traptype)
     {
-        timesDead++;
-        texter.text = $"Player died {timesDead} times";
+        loseScreen.SetActive(true);
+        generator.enabled = false;
     }
 }
