@@ -76,6 +76,7 @@ public class Generator : MonoBehaviour
         elementsTransform.gameObject.SetActive(true);
         elements.Enqueue(elementsTransform);
 
+        Scores.Instance.current.km++;
         moved++;
     }
 }
