@@ -9,21 +9,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scores.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoresGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Follow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Follow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pool.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trap.cs" />
       <option value="$PROJECT_DIR$/Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputUIArrows.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Scores.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ScoresGUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AudioHolder.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Generator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scores.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Lose.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vC1BPeEYB0NyqfrZ7V6ZRMnA4S" />
@@ -76,7 +80,7 @@
       <workItem from="1626815886267" duration="598000" />
       <workItem from="1626816574243" duration="512000" />
       <workItem from="1626817117456" duration="7057000" />
-      <workItem from="1626896815031" duration="8125000" />
+      <workItem from="1626896815031" duration="16265000" />
     </task>
     <servers />
   </component>

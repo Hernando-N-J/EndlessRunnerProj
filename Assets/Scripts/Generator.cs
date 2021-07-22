@@ -74,6 +74,10 @@ public class Generator : MonoBehaviour
         var elementsTransform = itemsPool.GetRandom();
         elementsTransform.position = last.position - direction * displace;
         elementsTransform.gameObject.SetActive(true);
+        
+        var gems = elementsTransform.GetComponentsInChildren<Gem>();
+        foreach (var gem in gems) gem.gameObject.SetActive(true);
+        
         elements.Enqueue(elementsTransform);
 
         Scores.Instance.current.km++;

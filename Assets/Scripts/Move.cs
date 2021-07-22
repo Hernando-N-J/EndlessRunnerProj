@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class Move : MonoBehaviour
@@ -33,6 +34,11 @@ public class Move : MonoBehaviour
     animator = GetComponentInChildren<Animator>();
     tr = transform;
     yOriginal = tr.position.y;
+  }
+
+  private void OnEnable()
+  {
+    Scores.Instance.current.time = 0f;
   }
 
   private void Update()
